@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* basic colours */
+    --light-red: hsl(0, 100%, 67%);
+    --orange-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+
+    /* gradients */
+    --light-slate-blue: hsl(252, 100%, 67%);
+    --light-royal-blue: hsl(241, 81%, 54%);
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue: hsla(241, 72%, 46%, 0);
+
+    /* neutrals */
+    --white: hsl(0, 0%, 100%);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.card {
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    border: solid 1px black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-side {
+    width: 45%;
+    height: 100%;
+    border-radius: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.title {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+
+    margin-top: 1rem;
+}
+
+.light {
+    opacity: 70%;
+}
+
+.extra-light {
+    opacity: 45%;
+}
+
+.result {
+    width: 100%;
+    padding: 1rem;
+
+    shape-outside: circle();
+    clip-path: circle();
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.bottom-description {
+    height: 40%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 18px;
+
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.avaliation {
+    margin-bottom: .7rem;
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+.result strong {
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.result span {
+    font: 18px;
+}
+
+.summary-side {
+    width: 50%;
+    height: 100%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 5rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
