@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">  
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <main class="card">
+      <aside class="blue-side">
+        <h2 class="title title-blue-side">Your Result</h1>
+        <div class="circle">
+          <span class="font-lg">76</span>
+          <span class="font-sm">of 100</span>
+        </div>
+        <h1 class="result">Great</h1>
+        <p class="result-description">You scored higher than 65% of the people who have taken these tests.</p>
+      </aside>
+      <aside class="white-side">
+        <h2 class="title">Summary</h2>
+        <div class="skills">
+          <div class="reaction score-of-skill">
+            <span class="stat">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6.08998 13.28H9.17998V20.48C9.17998 22.16 10.09 22.5 11.2 21.24L18.77 12.64C19.7 11.59 19.31 10.72 17.9 10.72H14.81V3.52002C14.81 1.84002 13.9 1.50002 12.79 2.76002L5.21998 11.36C4.29998 12.42 4.68998 13.28 6.08998 13.28Z" stroke="#ff5757" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+              </span> 
+              Reaction
+            </span>
+            <span class="points"> <b>80</b> / 100</span>
+          </div>
+          <div class="memory score-of-skill">
+            <span class="stat">
+              <span>
+                <svg width="64px" height="64px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000" transform="matrix(1, 0, 0, -1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style>.cls-1{fill:none;stroke:#ffb01f;stroke-miterlimit:10;stroke-width:1.91px;}</style> </defs> <g id="brain"> <path class="cls-1" d="M12,4.36V20.59a1.92,1.92,0,0,1-1.91,1.91,1.93,1.93,0,0,1-1.91-1.91v0a2.45,2.45,0,0,1-.48,0,3.35,3.35,0,0,1-3.34-3.34,3.19,3.19,0,0,1,.08-.7A4.29,4.29,0,0,1,3.6,8.79,3.24,3.24,0,0,1,3.41,7.7,3.34,3.34,0,0,1,6.27,4.4v0a2.87,2.87,0,0,1,5.73,0Z"></path> <path class="cls-1" d="M6.75,11.05a3.35,3.35,0,0,1,0-6.69"></path> <path class="cls-1" d="M8.18,13.91h0A3.82,3.82,0,0,1,12,17.73h0"></path> <path class="cls-1" d="M9.14,7.23h0A2.86,2.86,0,0,0,12,4.36h0"></path> <path class="cls-1" d="M12,4.36V20.59a1.92,1.92,0,0,0,1.91,1.91,1.93,1.93,0,0,0,1.91-1.91v0a2.45,2.45,0,0,0,.48,0,3.35,3.35,0,0,0,3.34-3.34,3.19,3.19,0,0,0-.08-.7,4.29,4.29,0,0,0,.84-7.76,3.24,3.24,0,0,0,.19-1.09,3.34,3.34,0,0,0-2.86-3.3v0a2.87,2.87,0,0,0-5.73,0Z"></path> <path class="cls-1" d="M17.25,11.05a3.35,3.35,0,0,0,0-6.69"></path> <path class="cls-1" d="M15.82,13.91h0A3.82,3.82,0,0,0,12,17.73h0"></path> <path class="cls-1" d="M14.86,7.23h0A2.86,2.86,0,0,1,12,4.36h0"></path> </g> </g></svg>
+              </span> 
+              Memory
+            </span>
+            <span class="points"> <b>92</b> / 100</span>
+          </div>
+          <div class="verbal score-of-skill">
+            <span class="stat">
+              <span>
+                <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#00bd91"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Communication / Chat_Circle_Remove"> <path id="Vector" d="M9 12H15M11.9996 21C10.3645 21 8.83126 20.5639 7.50977 19.8018L7.50563 19.7994C7.37783 19.7257 7.31368 19.6887 7.25293 19.6719C7.19578 19.6561 7.14475 19.6507 7.08559 19.6548C7.02214 19.6591 6.95537 19.6813 6.82405 19.7251L4.51758 20.4939L4.51155 20.4962C4.02705 20.6577 3.78482 20.7384 3.62305 20.6807C3.48169 20.6303 3.36979 20.5187 3.31938 20.3774C3.26157 20.2152 3.34268 19.9719 3.50489 19.4853L3.50586 19.4823L4.27468 17.1758C4.3186 17.044 4.34003 16.9781 4.34437 16.9146C4.34842 16.8554 4.34401 16.804 4.32821 16.7469C4.31146 16.6863 4.27448 16.6221 4.20114 16.495L4.19819 16.4899C3.43604 15.1684 3 13.6351 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9702 21 11.9996 21Z" stroke="#00bd91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+              </span> 
+              Verbal
+            </span>
+            <span class="points"> <b>61</b> / 100</span>
+          </div>
+          <div class="visual score-of-skill">
+            <span class="stat">
+              <span>
+                <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 5C5.63636 5 2 12 2 12C2 12 5.63636 19 12 19C18.3636 19 22 12 22 12C22 12 18.3636 5 12 5Z" stroke="#1125d4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#1125d4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+              </span> 
+              Visual</span>
+            <span class="points"> <b>72</b> / 100</span>
+          </div>
+        </div>
+        <button class="btn">Continue</button>
+      </aside>
+    </main>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/LeonardoLopesHonda/Results-summary-component">Leonardo Lopes Honda</a>.
+    </footer>
+  </body>
+</html>
