@@ -20,7 +20,10 @@ The designs were created to the following widths:
 
 - Light slate blue (background): hsl(252, 100%, 67%)
 - Light royal blue (background): hsl(241, 81%, 54%)
+<<<<<<< HEAD
 
+=======
+>>>>>>> e6cb5ef20587d8731f4f779c9095bec4fc84504b
 - Violet blue (circle): hsla(256, 72%, 46%, 1)
 - Persian blue (circle): hsla(241, 72%, 46%, 0)
 
