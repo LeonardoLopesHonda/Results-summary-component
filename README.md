@@ -49,3 +49,4 @@ Users should be able to:
 
 - Linkedin - [Leonardo Honda](https://www.linkedin.com/in/leonardo-honda-9a3383248/)
 - Frontend Mentor - [@LeonardoLopesHonda](https://www.frontendmentor.io/profile/LeonardoLopesHonda)
+- GitHub - [Leonardo Lopes Honda](https://github.com/LeonardoLopesHonda)
